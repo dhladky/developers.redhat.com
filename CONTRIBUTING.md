@@ -124,7 +124,7 @@ See the [Demos contributing guide](https://github.com/jboss-developer/jboss-deve
 ### How to Contribute a Tutorial
 If you have a Tutorial that you think would be appropriate for Red Hat Developers, then [contact us](#contact).
 
-### How to Contribute an Existing Vimeo or YouTube Video
+### <a name="video"></a> How to Contribute an Existing Vimeo or YouTube Video
 This process is used for contributing details of a Vimeo or YouTube video.
 
 #### To add a Vimeo video to the site:
@@ -551,6 +551,12 @@ The bottom section of a Topics page is automatically populated based on a query 
 1. Ensure that it's new enough to appear. I.e it's publish date must be newer than the oldest item currenlty on the page.
 2. Ensure the item is is tagged with one of the tags configured on the topic. See below for how to fix this.
 3. Ensure that the item falls intp one of the catagories below and is thus indexed by the DCP.
+
+#### Videos
+First search for the video on the [resources page](http://developers.redhat.com/resources/). If you find it, you can check the tags currently set for the item, by looking in the 'Topics' column of the result set.
+
+If the video doesn't apear at all, add it using [these instructions](#video). If the Video appears, but is missing a required tag, you will need to edit the tags on the source Video in YouTube or Vimeo. If you have access to the account you can do it yourself, otherwise you will need to ask the ower of the video to do it.
+
 
 ## General changes
 If you have a general change that doesn't fall into the categories above, create a [JIRA issue](https://issues.jboss.org/secure/RHD/CreateIssue!default.jspa).
