@@ -557,6 +557,10 @@ First search for the video on the [resources page](http://developers.redhat.com/
 
 If the video doesn't apear at all, add it using [these instructions](#video). If the Video appears, but is missing a required tag, you will need to edit the tags on the source Video in YouTube or Vimeo. If you have access to the account you can do it yourself, otherwise you will need to ask the ower of the video to do it.
 
+#### Openshift Quickstarts
+First search for the Quickstart on the [resources page](http://developers.redhat.com/resources/). If you find it, you can check the tags currently set for the item, by looking in the 'Topics' column of the result set.
+
+If the Openshift Quickstart doesn't apear at all, create a [JIRA issue](https://issues.jboss.org/secure/RHD/CreateIssue!default.jspa) requesting it to be added. If the Quickstart does appear, but is missing a required tag, you will need to request that the OpenShift team add the tag to the item. 
 
 ## General changes
 If you have a general change that doesn't fall into the categories above, create a [JIRA issue](https://issues.jboss.org/secure/RHD/CreateIssue!default.jspa).
