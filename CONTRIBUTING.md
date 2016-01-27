@@ -543,6 +543,14 @@ To create a new multi-page microsite at `developers.redhat.com/<microsite_id>`:
 
         hero_class: <microsite_id>
 
+## Topics
+
+### Controling Dynamic Content
+The bottom section of a Topics page is automatically populated based on a query to the DCP. This query seraches over the following content types and filters by a set of tags configured on the particular topic. The items are ordered by recency, with newest at the top. In order to get an item to display in this area:
+
+1. Ensure that it's new enough to appear. I.e it's publish date must be newer than the oldest item currenlty on the page.
+2. Ensure the item is is tagged with one of the tags configured on the topic. See below for how to fix this.
+3. Ensure that the item falls intp one of the catagories below and is thus indexed by the DCP.
 
 ## General changes
 If you have a general change that doesn't fall into the categories above, create a [JIRA issue](https://issues.jboss.org/secure/RHD/CreateIssue!default.jspa).
