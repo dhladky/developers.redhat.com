@@ -546,11 +546,22 @@ To create a new multi-page microsite at `developers.redhat.com/<microsite_id>`:
 ## Topics
 
 ### Controling Dynamic Content
-The bottom section of a Topics page is automatically populated based on a query to the DCP. This query seraches over the following content types and filters by a set of tags configured on the particular topic. The items are ordered by recency, with newest at the top. In order to get an item to display in this area:
+The bottom section of a Topics page is automatically populated based on a query to the DCP. This query seraches over a set of content types and filters by a set of tags configured on the particular topic. The items are ordered by recency, with newest at the top. In order to get an item to display in this area:
 
 1. Ensure that it's new enough to appear. I.e it's publish date must be newer than the oldest item currenlty on the page.
 2. Ensure the item is is tagged with one of the tags configured on the topic. See below for how to fix this.
 3. Ensure that the item falls intp one of the catagories below and is thus indexed by the DCP.
+
+### What Content types are supported?
+To get a feeling for what content types are supported, browse these pages:
+
+* http://developers.redhat.com/resources/
+* http://developers.redhat.com/products/bpmsuite/buzz/
+* http://developers.redhat.com/books/
+* 
+A More definitive list is documented below...
+
+### How do I ensure a particular piece of content appears on the Topic page?
 
 #### Videos
 First search for the video on the [resources page](http://developers.redhat.com/resources/). If you find it, you can check the tags currently set for the item, by looking in the 'Topics' column of the result set.
